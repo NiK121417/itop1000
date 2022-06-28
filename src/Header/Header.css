@@ -1,0 +1,32 @@
+.rate{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item{
+    background: #ff9f1c;
+    max-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.currency-in{
+    color: #000;
+}
+
+@media (max-width: 578px) {
+    .flex-container{
+        display: block;
+        justify-content: space-around;
+    }
+    .flex-item{
+        margin: 10px auto;
+    }
+}

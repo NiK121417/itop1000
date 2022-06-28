@@ -1,0 +1,60 @@
+body {
+    background: url("../public/img/Градиент-14.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    color: white;
+    font-size: 12px;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.block {
+    display: block;
+    margin: 15px 0;
+    background: #6A5ACD;
+    border-radius: 20px;
+    padding: 10px 25px;
+    -webkit-box-shadow: 0px 9px 11px -7px rgba(72, 61, 139, 0.73);
+    box-shadow: 0px 9px 11px -7px rgba(72, 61, 139, 0.73);
+}
+
+.radio-btn {
+    margin: 10px 0;
+}
+
+@media (min-width: 1024px) {
+    .block {
+        min-width: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 85%;
+    }
+}

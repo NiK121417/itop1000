@@ -1,0 +1,63 @@
+.currency__block{
+    background: #483D8B;
+    padding: 5px 20px;
+    display: block;
+    margin: 10px;
+}
+
+.currency__block h3{
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    max-width: 200px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+.currency__block input{
+    width: 100px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: none;
+}
+
+.currency__block select{
+    padding: 4px 10px;
+    border: none;
+    margin: 0 5px;
+    background: #ff9f1c;
+}
+
+.currency__block button{
+    display: block;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ff9f1c;
+    transition: all 0.5s ease;
+}
+
+.currency__block button:hover{
+    background: #00FFFF;
+}
+
+.currency__block title{
+    margin: 10px 0px;
+    display: flex;
+    background: #9370DB;
+    padding: 10px 5px;
+    justify-content: center;
+    max-width: 185px;
+}
+
+.currency__block span{
+    margin-left: 10px;
+}
+
+@media (max-width: 578px) {
+    .currency__block input{
+        width: 60px;
+        padding: 5px;
+    }
+}
